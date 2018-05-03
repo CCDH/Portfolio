@@ -2,10 +2,10 @@ var Rotate = function() {
 
   /**
    * Default settings voor de functie
-   * @type {{selector: string, choosedegrees: number, choosescale: number, chooseopacity: number choosecolor:}}
+   * @type {{selector: string, choosedegrees: number, choosescale: number, chooseopacity:}}
    */
   var defaultSettings = {
-    selector: '.pijl',
+    selector: '.pijlen',
     choosedegrees: 180,
     choosescale: 0.8,
     chooseopacity: 1.0
