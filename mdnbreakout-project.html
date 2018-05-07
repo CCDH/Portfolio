@@ -42,10 +42,10 @@
     <!-- end Preloader -->
 
     <div class="container-fluid">
-       <!-- box-header -->
+        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+                <a href="index.html"><img src="img/" width="80" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
@@ -58,18 +58,14 @@
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
-                <li class="box-label">Library</li>
+                <li class="box-label">MDN Breakout Game</li>
                 <li><a href="index.html">home</a></li>
                 <li><a href="about.html">over mij</a></li>
                 <li><a href="contact.html">contact</a></li>
 
 
-                <!--<li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>-->
+                <li class="box-social"><a href="https://www.facebook.com/camielchristiaan.dehoogt"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="https://www.linkedin.com/in/camieldehoogt/"><i class="ion-social-linkedin"></i></a></li>
             </ul>
         </nav>
         <!-- end nav -->
@@ -77,42 +73,57 @@
 
     <!-- top-bar -->
     <div class="top-bar">
-        <h1>Library</h1>
-        <p><a href="#">Home</a> / <a href="#">portfolio</a> / Library</p>
+        <h1>MDN Breakout Game</h1>
+        <p><a href="#">Home</a> / <a href="#">portfolio</a> / MDN Breakout Game</p>
     </div>
     <!-- end top-bar -->
 
     <!-- main-container -->
     <div class="container main-container">
         <div class="col-md-12">
-            <img src="img/portfolio/library.jpg" alt="" class="img-responsive" />
+            <!--<img src="img/portfolio/portfolio.jpg" alt="" class="img-responsive" />-->
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-12">
-            <h3 class="text-uppercase">Library</h3>
-            <h5>Javascript</h5>
+            <h3 class="text-uppercase">MDN Breakout Game</h3>
+            <h5>Javascript & HTML5</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-            <p>Voor semester 4 heb ik een Javscript library moeten schrijven die makkelijk te hergebruiken is. Gedurende mijn maatwerk heb ik hieraan gewerkt. Het gaat hierbij om een kleine library waarmee je een SVG of ander object kunt aanpassen binnen de Javascript code. </p>
+            <p>Via de website ww.developer.mozilla.org heb ik een tutorial gevonden waarmee je een simpele 2D MDN Breakout Game kunt maken. Deze tutorial legt stapsgewijs uit hoe je van begin tot eind deze game kunt maken met enkel Javascript code die rendered
+                in HTML5.
+            </p>
 
-            <p>De dingen die je kunt aanpassen zijn:<br /><b>Grootte, Transparantheid, Object draaien, Kleur </b></p>
+            <p><b>Stap 1:</b><br />De eerste stap was om het canvas te maken waarop alles zou moeten komen te staan. Binnen deze stap heb ik een beetje zitten proberen om daarna de eerste stap van de tutorial klaar te krijgen. Dit was om een balletje te
+                maken en deze weer te geven op het canvas<br /><b>Stap 2:</b><br />Tijdens deze stap was het de bedoeling om middels Javascript code de aangemaakte bal in stap 1 te laten bewegen. Wat ik hier vooral geleerd heb is dat je beter verschillende
+                functies kunt maken in plaats van 1 grote functies. Zo kun je de code makkelijker hergebruiken en is de code cleaner.<br /><b>Stap 3:</b><br />Gedurende deze stap moest er gezorgd worden voor een bal die tegen de muren aan stuiterde. Dit
+                is gedaan middels if statements. Hier heb ik al een tijdje geen gebruik van gemaakt en deed dit wel weer een beetje boven water helpen bij mij.<br /><b>Stap 4:</b><br />Deze stap heeft ervoor gezorgd dat je met de pijltjestoetsen de eerder
+                aangemaakte plank kunt bewegen. Het is namelijk geen game als er geen interactie is. Tijdens deze stap heb ik geleerd hoe boolean variabelen werken en hoe je deze moet gebruiken. <b><br />Stap 5:</b><br />Gedurende deze stap wordt er een
+                melding gemaakt wanneer de bal de grond raakt. Dit is gedaan middels if/else statements en het gebruik van alerts.<br /><b>Stap 6:</b><br />Bij deze stap wordt het stenenveld gemaakt dat je moet uitspelen met de bal. Hier is wederom gewerkt
+                met variabelen en functies.<br /><b>Stap 7:</b><br />Het stenenveld is wel aangemaakt maar de bal gaat er nog doorheen. Bij deze stap wordt ervoor gezorgd dat de stenen weg gaan wanneer de bal deze raakt.<br /><b>Stap 8:</b><br />Hier
+                wordt er een functie aangemaakt die ervoor zorgt dat je je score kunt bijhouden. Per steen die weg gaat komt er een punt bij.<br /><b>Stap 9:</b><br />Bij deze stap maak ik een functie aan waarmee je ook je muis kunt gebruiken naast je pijltjestoetsen.<br /><b>Stap 10:</b><br />Naast de score kun je ook meerdere levens toevoegen aan het spel. Wanneer je af gaat, zal
+                er een leven minder worden weergegeven. </p>
 
-            <br />  <a href="Library_files.zip" download>Download hier de ZIP met de benodigde bestanden</a>
+                <p>
+                  Ik heb alle code voorzien van comments en documentatie zodat een ander makkelijk kan zien wat welke functie doet. Zo is het makkelijker opnieuw te gebruiken.
+                </p>
+
+                <p>
+                  <a href="Game.zip" download>Download hier de ZIP met de benodigde bestanden</a>
+                </p>
         </div>
 
-        <!--<div class="col-md-3">
+        <!--  <div class="col-md-3">
             <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> Grootte</li>
-                <li><i class="ion-ios-circle-filled"></i> Transparantheid</li>
-                <li><i class="ion-ios-circle-filled"></i> Het object draaien</li>
-                <li><i class="ion-ios-circle-filled"></i> Kleur</li>
+                <li><i class="ion-ios-circle-filled"></i> Design</li>
+                <li><i class="ion-ios-circle-filled"></i> consectetur adipiscing</li>
+                <li><i class="ion-ios-circle-filled"></i> et gubernationis</li>
+                <li><i class="ion-ios-circle-filled"></i> Aliter enim nosmet</li>
             </ul>
-
             <div class="h-10"></div>
-            <!--<h4>Share</h4>
+            <h4>Share</h4>
             <ul class="social-ul">
                 <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
                 <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
@@ -121,9 +132,6 @@
             </ul>
         </div>-->
     </div>
-
-
-
     <!-- end main-container -->
 
 
@@ -156,9 +164,9 @@
 
     <!-- google analytics  -->
     <script>
-        (function (i, s, o, g, r, a, m) {
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
