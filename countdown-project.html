@@ -56,7 +56,7 @@
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
-                <li class="box-label">Hello World</li>
+                <li class="box-label">Countdown</li>
                 <li><a href="index.html">home</a></li>
                 <li><a href="about.html">over mij</a></li>
                 <li><a href="contact.html">contact</a></li>
@@ -71,8 +71,8 @@
 
     <!-- top-bar -->
     <div class="top-bar">
-        <h1>Hello World</h1>
-        <p><a href="#">Home</a> / <a href="#">portfolio</a> Hello World</p>
+        <h1>Countdown</h1>
+        <p><a href="#">Home</a> / <a href="#">portfolio</a> Countdown</p>
     </div>
     <!-- end top-bar -->
 
@@ -84,34 +84,38 @@
         </div>
 
         <div class="col-md-12">
-            <h3 class="text-uppercase">Hello World</h3>
+            <h3 class="text-uppercase">Countdown</h3>
             <h5>Javascript</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-            <p>Om nog iets meer te oefenen met JavaScript heb ik een kleine testpagina gemaakt met verschillende functionaliteiten die mogelijk zijn met Javascript. Deze pagina bevat minimale HTML omdat vrijwel alles via de JavaScript file is gedaan.
+            <p>Ik en Michelle zijn begonnen met een functie voor de countdown clock, daarin een variabele voor het evenement waar we de countdown clock voor maken. Er is hiervoor newDate () gebruikt, waarin we het jaar, maand en dag als parameter hebben benoemd. Hierna een nieuwe lege newDate () om het heden te laten bepalen. Deze halen we hierna van elkaar af, dus heden – verjaardag is newDate (jaar, maand, dag) – newDate (). Deze wordt geconsolelogd en laat hierbij het aantal milliseconden zien tot het evenement die we hebben ingevoerd.
             </p>
 
-                <p>
-Ik heb hier gewerkt met querySelectors waarmee ik verschillende HTML-elementen kan aanroepen met behulp van JavaScript. Hier heb ik nog nooit eerder mee gewerkt maar ik snap nu wel de waarde ervan en dat het voor sommige dingen erg handig kan zijn om deze te gebruiken.
-                </p>
+            <p>
+              Wat we eigenlijk willen zien zijn de dagen, uren, minuten en seconden. Hiervoor hebben we variabelen nodig die vervolgens door middel van een formule de juiste waardes genereerd.
+    Tot nog toe is het alleen te zien geweest binnen console.log. Nu wilde we het met HTML laten zien, hiervoor is een ID aangemaakt voor de demo. Binnen javascript wordt deze aangeroepen door middel van een document. getElementById waarbij we de innerHTML laten zien met de waardes dag, uur, minuut en seconden.
 
-                <p>
-                  Verder heb ik gewerkt met de on-clickfunctie binnen JavaScript. Dit heb ik al eerder gedaan alleen zorgt de on-clickfunctie die ik nu gebruikt heb ervoor dat wanneer je op een element klikt deze de afbeelding veranderd naar een nieuwe afbeelding.
-                </p>
+            </p>
 
-                <p>
-                  Ook heb ik kennis gemaakt met de localStorage. Waarmee je als gebruiker je naam kunt invullen wanneer je op de pagina komt zodat deze een berichtje met naam weergeeft op het scherm. Je kunt daarna ook de naam aanpassen door op de knop onderaan de pagina te drukken. Deze knop zorgt ervoor dat er een pop-up venster komt waarmee je de naam kunt wijzigen.
-                </p>
+            <p>
+                Nu wilde we de countdown clock ook daadwerkelijk laten aftellen, hiervoor hebben we setInterval gebruikt. Waarin we de functie zetten, met de hoeveelheid seconden we het elke keer willen laten zien. Dit dus om de seconden waardoor we 1000 gebruiken. Hierbij gebruiken we ook window. Onload=function(), om de pagina de taak te laten uitvoeren wanneer de pagina klaar is met laden.
+            </p>
 
-                <p>
-                  Het enige probleem is dat je wanneer je de pagina vernieuwd de button niet meer werkt en je ook je naam niet meer kunt invullen. Om dit op te lossen moet je je geschiedenis verwijderen en opnieuw de pagina openen.
-                </p>
+            <p>
+              Door de pagina te laten stoppen met refreshen, zodat de waardes die worden ingevuld in de input value, wel blijft behouden. Zo blijft het op de huidige pagina, daarvoor hebben submit gebruikt.
+            </p>
 
-                <p>
-                  <a href="test_homepage.zip" download>Download hier de ZIP met de benodigde bestanden</a>
-                </p>
+            <p>
+            <b> Reflectie</b><br />
+Uiteindelijk is het ons gelukt om de countdown clock te laten werken met de hardcoded parameters die het evenement vastlegd. We wilde alleen wel dat de gebruiker zelf zijn eigen waardes kon invullen om zo zijn eigen datum te kiezen, om te laten aftellen. We hebben geprobeerd de waardes te koppelen van de variabelen in de newDate (), zodat er dus eigen waardes ingevuld konden worden. We hebben meerdere vormen geprobeerd om tot een oplossing te komen, met bijvoorbeeld formulieren (input value met id, buttonclick), document.getElementById en queryselector. Het is ons helaas niet gelukt om die waardes op te roepen.
+
+            </p>
+
+            <p>
+                <a href="countdown_timer.zip" download>Download hier de ZIP met de benodigde bestanden</a>
+            </p>
 
 
         </div>
