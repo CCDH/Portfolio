@@ -16,3 +16,6 @@ Ook zijn merendeel van de items die op de website te vinden zijn, alleen te down
 
 # Versiebeheer
 Er wordt gebruik gemaakt van Gitkraken om de vorderingen in te zien en te bekijken.
+
+# Wat moet je weten?
+Je kunt simpelweg de index.html pagina openen en vervolgens door navigeren naar de andere aangemaakte pagina's van mijn portfolio. 
